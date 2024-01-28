@@ -1,0 +1,21 @@
+.Nav {
+  width: auto;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  justify-content: end;
+  align-content: center;
+  position: sticky;
+}
+
+.Nav span a {
+  padding: 2rem;
+  position: relative;
+  right: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  align-self: center;
+  justify-self: center;
+}
+

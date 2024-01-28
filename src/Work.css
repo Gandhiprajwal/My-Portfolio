@@ -1,0 +1,36 @@
+.img-pjt {
+  border-radius: 25px;
+}
+
+.link-btn {
+  width: 8rem;
+  height: 3rem;
+  border: 1px solid rgb(254, 250, 236);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  background-color: rgb(185, 185, 211);
+}
+
+.link-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+#project-img {
+  width: 492px;
+  height: 277px;
+}
+
+.content-cont {
+  margin-left: 4rem;
+}

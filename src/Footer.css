@@ -1,0 +1,40 @@
+.footer-container {
+  width: auto;
+  height: 300px;
+}
+
+.container-1 {
+  margin: 25px 10%;
+}
+
+#quote-1 {
+  font-size: 1.8rem;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#quote-2 {
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
+}
+#quote-2 a {
+  text-decoration: none;
+  color: #6b2fca;
+}
+
+#quote-3 {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+}
+
+#quote-3 a {
+  text-decoration: none;
+  color: black;
+}
+
+#quote-4 {
+  position: relative;
+  top: 2.5rem;
+  color: rgb(138, 116, 140);
+}

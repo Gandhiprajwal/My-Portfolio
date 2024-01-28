@@ -1,0 +1,10 @@
+.recentWork-container{
+    position: relative;
+    top: 2rem;
+    margin: 1.5rem 10%;
+}
+
+#recent-work{
+    font-size: 2rem;
+    padding-top: 1rem;
+}

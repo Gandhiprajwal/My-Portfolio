@@ -1,0 +1,75 @@
+.bg-intro {
+  width: auto;
+  height: 90vh;
+  background: -o-linear-gradient(
+    345.95deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    104.05deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.main-conainter {
+  margin: 25px 10%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#h1-greet {
+  margin-bottom: 0%;
+  font-size: 2.5rem;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+#h1-intro {
+  margin-top: 0%;
+  margin-bottom: 20px;
+}
+
+.header-1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+.header-1 a {
+  text-decoration: none;
+  color: #6b2fca;
+}
+
+#tagline {
+  margin-top: 0%;
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  top: 3rem;
+}
+
+#arrow-icon {
+  font-size: 3rem;
+  position: absolute;
+  top: 82vh;
+  left: 50%;
+}
+
+#ar-icon{
+    color: black;
+    text-decoration: none;
+}
