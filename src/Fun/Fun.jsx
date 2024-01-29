@@ -131,7 +131,7 @@ export default function Fun() {
             <ShowImg key={project.id} data={project} />
           ))}
         </div>
-        <hr id="line-hr" />
+        {/* <hr id="line-hr" /> */}
         <Footer />
       </div>
     </>

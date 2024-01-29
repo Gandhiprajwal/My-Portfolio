@@ -1,0 +1,84 @@
+.cover-img {
+  position: relative;
+  top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cv-img {
+  width: 80%;
+  height: 12rem;
+  filter: blur(2px);
+}
+.override-content {
+  /* width: 100%; */
+  position: absolute;
+  left: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#pf-img {
+  width: 8rem;
+  border-radius: 1.5rem;
+}
+
+.cv-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-info:last-child{
+  margin: auto;
+}
+.self-intro {
+  margin-left: 2rem;
+}
+
+#my-name,
+#username {
+  color: white;
+}
+
+#my-name {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+#username {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.my-button {
+  background-color: #1c1b23;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 1rem;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: none;
+  padding: 8px 24px;
+  border: 0px solid #000;
+  border-radius: 9px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+}
+.my-button a{
+  text-decoration: none;
+  color: #77767D;
+}
+
+.my-button:active {
+  transform: scale(0.95);
+}
+
+#btn-link{
+  text-align: center;
+  font-size: 1rem;
+}

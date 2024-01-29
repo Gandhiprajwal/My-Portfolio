@@ -1,5 +1,4 @@
-.bg-container {
-  color: white;
+.nav-color {
   background: -o-linear-gradient(
     345.95deg,
     rgba(204, 0, 255, 0.15) 0.31%,
@@ -14,32 +13,25 @@
     rgba(122, 132, 221, 0.108) 60.87%,
     rgba(255, 255, 255, 0) 100%
   );
-  background-color:rgb(20,19,26);
-  height: auto;
+  color: white;
 }
-
-#fun-head {
+.knowthing-cont {
   margin: 1.5rem 10%;
-  font-size: 2.5rem;
-}
-
-.fun-container {
-  display: grid;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(auto, 200px);
-  grid-gap: 2rem;
-  margin: 1.5rem 10%;
-}
-
-#line-hr {
-  margin: 25px 10%;
-  height: 0.1rem;
-  background-color: white;
-  border-radius: 25px;
   position: relative;
-  top:2rem;
+  top: 4rem;
 }
 
-#quoteFun-1 {
-  color: #6b2fca;
+.known-cont {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding: 2rem;
+  margin: 0;
+}
+
+#know-head {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }

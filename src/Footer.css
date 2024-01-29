@@ -1,10 +1,26 @@
 .footer-container {
+  color: white;
   width: auto;
   height: 300px;
+  margin-top: 5rem;
+  background: -o-linear-gradient(
+    345.95deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    104.05deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .container-1 {
-  margin: 25px 10%;
+  margin: 1.5rem 10%;
 }
 
 #quote-1 {
@@ -30,7 +46,7 @@
 
 #quote-3 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #quote-4 {

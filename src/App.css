@@ -1,6 +1,8 @@
+.container{
+  background:rgb(20,19,26);
+}
+
 .footer{
-    position: relative;
-    top: 5rem;
     background: -o-linear-gradient(
     345.95deg,
     rgba(204, 0, 255, 0.15) 0.31%,

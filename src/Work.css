@@ -5,7 +5,8 @@
 .link-btn {
   width: 8rem;
   height: 3rem;
-  border: 1px solid rgb(254, 250, 236);
+  border: none;
+  /* border: 1px solid rgb(254, 250, 236); */
   border-radius: 25px;
   cursor: pointer;
 }

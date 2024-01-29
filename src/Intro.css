@@ -15,9 +15,11 @@
     rgba(122, 132, 221, 0.108) 60.87%,
     rgba(255, 255, 255, 0) 100%
   );
+  /* background-color:rgb(20,19,26); */
 }
 .main-conainter {
-  margin: 25px 10%;
+  color: white;
+  margin: 1.5rem 10%;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -70,6 +72,6 @@
 }
 
 #ar-icon{
-    color: black;
+    color: white;
     text-decoration: none;
 }
