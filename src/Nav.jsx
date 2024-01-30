@@ -13,7 +13,7 @@ function Nav({ work }) {
         </span>
         <span>
           <a onClick={() => scrollHandler(work)} href="#">
-            Works
+            Project
           </a>
         </span>
         <span>

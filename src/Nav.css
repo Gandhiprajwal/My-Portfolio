@@ -1,3 +1,23 @@
+/* .nav-container {
+  position: sticky;
+  top: 0;
+  background: -o-linear-gradient(
+    345.95deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    104.05deg,
+    rgba(204, 0, 255, 0.15) 0.31%,
+    rgba(235, 73, 219, 0.066) 28.63%,
+    rgba(122, 132, 221, 0.108) 60.87%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-color:rgba(20,19,26,1);
+
+} */
 .Nav {
   width: auto;
   height: 5rem;
@@ -5,7 +25,6 @@
   grid-template-columns: repeat(5, 100px);
   justify-content: end;
   align-content: center;
-  position: sticky;
 }
 
 .Nav span a {
@@ -18,4 +37,3 @@
   align-self: center;
   justify-self: center;
 }
-

@@ -3,6 +3,9 @@ import Footer from "../Footer";
 import CoverImage from "./CoverImage";
 import "../About/About.css";
 import KnowThing from "./KnownThing";
+import Qualification from "./Qualification";
+import ContactForm from "./ContactForm";
+import { VscBook } from "react-icons/vsc";
 
 export default function About() {
   let known = {
@@ -14,14 +17,14 @@ export default function About() {
           name: "HTML",
           color: 0,
         },
-        { name: "CSS", color: 1 },
+        { name: "CSS", color: "blue" },
         {
           name: "Tailwind",
-          color: 1,
+          color: "blue",
         },
         {
           name: "Javascript",
-          color: 2,
+          color: "yellow",
         },
         {
           name: "Typescript",
@@ -29,7 +32,7 @@ export default function About() {
         },
         {
           name: "React Js",
-          color: 1,
+          color: "blue",
         },
         {
           name: "Bootstrap",
@@ -43,11 +46,11 @@ export default function About() {
       tech: [
         {
           name: "Node",
-          color: 4,
+          color: "green",
         },
         {
           name: "Express",
-          color: 2,
+          color: "yellow",
         },
       ],
     },
@@ -57,11 +60,11 @@ export default function About() {
       tech: [
         {
           name: "MySql",
-          color: 3,
+          color: "red",
         },
         {
           name: "MongoDB",
-          color: 2,
+          color: "yellow",
         },
         {
           name: "Redis",
@@ -76,7 +79,7 @@ export default function About() {
       tech: [
         {
           name: "Docker",
-          color: 3,
+          color: "red",
         },
         {
           name: "Kubernetes",
@@ -84,7 +87,25 @@ export default function About() {
         },
         {
           name: "AWS",
-          color: 4,
+          color: "green",
+        },
+      ],
+    },
+    languages: {
+      id: 5,
+      head: "Programming Language",
+      tech: [
+        {
+          name: "Java",
+          color: "blue",
+        },
+        {
+          name: "C",
+          color: 0,
+        },
+        {
+          name: "Python",
+          color: 0,
         },
       ],
     },
@@ -96,13 +117,17 @@ export default function About() {
       </div>
       <CoverImage />
       <div className="knowthing-cont">
-        <h1 id="know-head">What I Know</h1>
+        <h1 id="know-head">
+          What I Know <VscBook />
+        </h1>
         <div className="known-cont">
           {Object.values(known).map((know) => (
             <KnowThing key={know.id} know={know} />
           ))}
         </div>
       </div>
+      <Qualification />
+      <ContactForm />
       <Footer />
     </div>
   );

@@ -1,0 +1,7 @@
+.quali-container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 1.5rem 10%;
+    padding-top: 2rem;
+}

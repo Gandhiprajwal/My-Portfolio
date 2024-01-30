@@ -1,0 +1,131 @@
+.contactForm-cont {
+  margin: 1.5rem 10%;
+}
+
+.contactForm-cont h1 {
+  margin-top: 0;
+}
+
+.cnt-form {
+  background-color: rgb(28, 27, 35);
+  padding: 2rem;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.name,
+.email {
+  width: 50%;
+  height: 5rem;
+  background-color: rgb(20, 19, 26);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.name label,
+.email label {
+  padding-bottom: 0.5rem;
+}
+
+.name input,
+.email input {
+  height: 3rem;
+  background-color: rgb(20, 19, 26);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.nameEmail-cont {
+  display: flex;
+  gap: 4rem;
+}
+
+.subject {
+  height: 6rem;
+  background-color: rgb(20, 19, 26);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.subject label {
+  display: block;
+  /* width: 96%; */
+  height: 1rem;
+  padding-bottom: 1rem;
+}
+
+.subject input {
+  width: 96%;
+  /* display: block; */
+  background-color: rgb(20, 19, 26);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.desc {
+  width: auto;
+  height: 14rem;
+  background-color: rgb(20, 19, 26);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.desc label {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+#description {
+  width: 96%;
+  height: 80%;
+  background-color: rgb(20, 19, 26);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: 2px solid rgb(28, 27, 35);
+  border-radius: 10px;
+}
+
+#description:focus {
+  border: 2px solid rgb(28, 27, 35);
+  outline: none;
+}
+
+#send-btn {
+  padding: 0.4rem;
+  height: 2.5rem;
+  width: 8rem;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  border: none;
+  color: black;
+  cursor: pointer;
+}

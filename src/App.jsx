@@ -10,9 +10,9 @@ function App() {
     <div className="container">
       <Intro work={work} />
       <RecentWork work={work} />
-      <div className="footer">
-        <Footer />
-      </div>
+      {/* <div className="footer"> */}
+      <Footer />
+      {/* </div> */}
     </div>
   );
 }

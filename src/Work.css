@@ -23,13 +23,16 @@
 .work-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  display: flexbox;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
   justify-content: center;
   padding-bottom: 2rem;
 }
 
 #project-img {
-  width: 492px;
-  height: 277px;
+  width: 30rem;
+  height: 18rem;
 }
 
 .content-cont {

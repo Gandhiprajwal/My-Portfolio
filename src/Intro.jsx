@@ -17,7 +17,7 @@ export default function Intro({ work, btn }) {
             Hello there &#128075;,
           </h1>
           <h1 className="header-1" id="h1-intro">
-            I'm
+            I'm&nbsp;
             <a href="#" id="name">
               Prajwal
             </a>

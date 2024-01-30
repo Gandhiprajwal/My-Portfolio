@@ -52,7 +52,7 @@ export default function RecentWork({ work,btn }) {
   return (
     <>
       <div className="recentWork-container" ref={work}>
-        <h1 id="recent-work" >Recent Work:</h1>
+        <h1 id="recent-work" >Projects:</h1>
         {Object.values(data).map((project) => (
           <Work key={project.id} data={project} work={work} />
         ))}

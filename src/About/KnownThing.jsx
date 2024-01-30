@@ -2,13 +2,13 @@ import "../About/KnownThing.css";
 import PropTypes from "prop-types";
 
 const getColor = (color) => {
-  if (color === 1) { //blue --> use krta hu
+  if (color === "blue") { //blue --> use krta hu
     return "rgba(59,130,246,.6)";
-  } else if (color === 2) { // yellow --> acchee se aata hai
+  } else if (color === "yellow") { // yellow --> acchee se aata hai
     return "rgba(234,179,8,.6)";
-  } else if (color === 3) { //red --> kr sakta hu kaam
+  } else if (color === "red") { //red --> kr sakta hu kaam
     return "rgba(239,68,68,.6)"; 
-  } else if (color === 4) {  //green --> everready
+  } else if (color === "green") {  //green --> everready
     return "rgb(28,126,67)";
   } else { // pdha hai only
     return "rgba(0,0,0,.6)";

@@ -1,6 +1,7 @@
 .cover-img {
   position: relative;
   top: 3rem;
+  padding: .5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,14 +10,14 @@
 #cv-img {
   width: 80%;
   height: 12rem;
-  filter: blur(2px);
+  filter: blur(4px);
 }
 .override-content {
-  /* width: 100%; */
+  width: 70%;
   position: absolute;
   left: 15%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 10px;
 }
@@ -29,13 +30,23 @@
 .cv-info {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  /* background-color: antiquewhite; */
+  width: 100%;
 }
 
-.cv-info:last-child{
+.cv-info:last-child {
   margin: auto;
 }
 .self-intro {
   margin-left: 2rem;
+  /* background-color: #fff; */
+}
+
+.insta-btn {
+  /* background-color: aqua; */
+  margin: 0;
+  /* padding: 0; */
 }
 
 #my-name,
@@ -69,16 +80,16 @@
   align-items: center;
   height: 2.5rem;
 }
-.my-button a{
+.my-button a {
   text-decoration: none;
-  color: #77767D;
+  color: #77767d;
 }
 
 .my-button:active {
   transform: scale(0.95);
 }
 
-#btn-link{
+#btn-link {
   text-align: center;
   font-size: 1rem;
 }
