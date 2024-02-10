@@ -21,15 +21,32 @@
   color: white;
   margin: 1.5rem 10%;
   position: relative;
-  top: 50%;
+  top: 40%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: auto;
+}
+
+.content {
+  width: 50%;
+  height: fit-content;
+}
+
+.logo {
+  width: 45%;
+}
+
+.logo img{
+  width: 80%;
 }
 
 #h1-greet {
@@ -61,7 +78,7 @@
   font-weight: 400;
   font-style: italic;
   position: relative;
-  top: 3rem;
+  top: 2rem;
 }
 
 #arrow-icon {
@@ -71,7 +88,7 @@
   left: 50%;
 }
 
-#ar-icon{
-    color: white;
-    text-decoration: none;
+#ar-icon {
+  color: white;
+  text-decoration: none;
 }

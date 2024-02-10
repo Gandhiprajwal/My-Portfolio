@@ -9,6 +9,7 @@
   /* border: 1px solid rgb(254, 250, 236); */
   border-radius: 25px;
   cursor: pointer;
+  /* margin-right: 2rem; */
 }
 
 .link-btn:hover {
@@ -37,4 +38,12 @@
 
 .content-cont {
   margin-left: 4rem;
+}
+
+.btn-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 18rem;
 }

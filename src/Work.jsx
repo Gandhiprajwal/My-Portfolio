@@ -12,7 +12,9 @@ export default function Work({ data, work }) {
       head: PropTypes.string.isRequired,
       subHead: PropTypes.string.isRequired,
       descrip: PropTypes.string.isRequired,
-      link: PropTypes.string.isRequired,
+      github: PropTypes.string.isRequired,
+      project: PropTypes.string.isRequired,
+      disabled: PropTypes.bool.isRequired,
     }).isRequired,
   };
   return (
@@ -22,13 +24,24 @@ export default function Work({ data, work }) {
         <h2 className="head">{data.head}</h2>
         <h4 className="subHead">{data.subHead}</h4>
         <p className="decrip">{data.descrip}</p>
-        <button
-          className="link-btn"
-          href=""
-          onClick={() => handlebtn(data.link)}
-        >
-          <a href={data.link}>View on GitHub</a>
-        </button>
+        <div className="btn-links">
+          <button
+            className="link-btn"
+            href=""
+            onClick={() => handlebtn(data.github)}
+            disabled={data.disabled ? true : false}
+          >
+            <a href={data.github}>View on GitHub!</a>
+          </button>
+          <button
+            className="link-btn"
+            href=""
+            onClick={() => handlebtn(data.project)}
+            disabled={data.disabled ? true : false}
+          >
+            <a href={data.project}>Try Now! </a>
+          </button>
+        </div>
       </span>
     </div>
   );

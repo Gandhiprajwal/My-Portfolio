@@ -5,117 +5,101 @@ import "./Fun.css";
 
 export default function Fun() {
   let images = {
-    // img1: {
-    //   id: 1,
-    //   link: "/images/Fun/img1.jpg",
-    // },
-    // img2: {
-    //   id: 2,
-    //   link: "/images/Fun/img2.heic",
-    // },
+    img1: {
+      id: 1,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591133/Fun/zosguydstdfulpr7kyib.jpg",
+    },
+    img2: {
+      id: 2,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591130/Fun/ayeslhae2b6by2mpsvio.jpg",
+    },
     img3: {
       id: 3,
-      link: "/images/Fun/img3.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591130/Fun/nwgjensr6cbbnmhcv2hj.jpg",
     },
     img4: {
       id: 4,
-      link: "/images/Fun/img4.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591130/Fun/twxvoabbliizu6lyiqkb.jpg",
     },
     img5: {
       id: 5,
-      link: "/images/Fun/img5.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591129/Fun/g23rk6rwd4plcygwk9k1.jpg",
     },
     img6: {
       id: 6,
-      link: "/images/Fun/img6.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591129/Fun/xokkhzctgw9aplqpvoil.jpg",
     },
+    // img7:{
+    //   id:7,
+    //   link:"https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591120/Fun/flwzjjty6lgelsxgcclg.heic",
+    // },
     img8: {
       id: 8,
-      link: "/images/Fun/img8.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591129/Fun/xtiu1dzlee5s3qrlfqtn.jpg",
     },
     img9: {
       id: 9,
-      link: "/images/Fun/img9.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591129/Fun/ec37v7jrhpt5kg5yviqk.jpg",
     },
     img10: {
       id: 10,
-      link: "/images/Fun/img10.jpg",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591128/Fun/gh2tngnapbu4wngus22o.jpg",
     },
     img11: {
       id: 11,
-      link: "/images/asset0.png",
-    },
-    project2: {
-      id: 12,
-      link: "/images/asset0.png",
-    },
-    project3: {
-      id: 13,
-      link: "/images/asset0.png",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591128/Fun/uq1lbuhabygj1pqq1pe7.jpg",
     },
     img12: {
-      id: 11,
-      link: "/images/asset0.png",
-    },
-    project4: {
       id: 12,
-      link: "/images/asset0.png",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591127/Fun/wkvr2ywnc0s9c70ywhkv.jpg",
     },
-    project5: {
+    img13: {
       id: 13,
-      link: "/images/asset0.png",
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591127/Fun/ch9b6foxbnljyldywfpk.jpg",
     },
-    img121: {
-      id: 11,
-      link: "/images/asset0.png",
+    img14: {
+      id: 14,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591126/Fun/sevlgxfjjbucwhrf5dtj.jpg",
     },
-    project41: {
-      id: 12,
-      link: "/images/asset0.png",
+    img15: {
+      id: 15,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591126/Fun/wfsb1nkqmyydpjs6w8fw.jpg",
     },
-    project51: {
-      id: 13,
-      link: "/images/asset0.png",
+    img16: {
+      id: 16,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591125/Fun/hwapi3oleqex3pqahqdq.jpg",
     },
-    img1211: {
-      id: 11,
-      link: "/images/asset0.png",
+    img17: {
+      id: 17,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591125/Fun/rcl542ceitbund63bdia.jpg",
     },
-    project411: {
-      id: 12,
-      link: "/images/asset0.png",
+    img18: {
+      id: 18,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591124/Fun/x3eoenoyqm9tclojexw9.jpg",
     },
-    project511: {
-      id: 13,
-      link: "/images/asset0.png",
+    img19: {
+      id: 19,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591123/Fun/rfgj0ierno127qrs5bcv.jpg",
     },
-    project5111: {
-      id: 13,
-      link: "/images/asset0.png",
+    img20: {
+      id: 20,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591124/Fun/kczfkdueli8te5udx3bc.jpg",
     },
-    img12111: {
-      id: 11,
-      link: "/images/asset0.png",
+    img21: {
+      id: 21,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591123/Fun/alkrtbpdti8fpbmzrzq7.jpg",
     },
-    project4111: {
-      id: 12,
-      link: "/images/asset0.png",
+    img22: {
+      id: 22,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591123/Fun/siwcuidjl2racprec8ku.jpg",
     },
-    project51111: {
-      id: 13,
-      link: "/images/asset0.png",
+    img23: {
+      id: 23,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591122/Fun/bcvakb5kt4xkyvmcfnnl.jpg",
     },
-    img1211111: {
-      id: 11,
-      link: "/images/asset0.png",
-    },
-    project411111: {
-      id: 12,
-      link: "/images/asset0.png",
-    },
-    project511111: {
-      id: 13,
-      link: "/images/asset0.png",
+    img24: {
+      id: 24,
+      link: "https://res.cloudinary.com/dxok1pcjy/image/upload/v1707591120/Fun/ns24gpzfdxx7akmasyng.jpg",
     },
   };
   return (

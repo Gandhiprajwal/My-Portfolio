@@ -4,9 +4,9 @@ export default function CoverImage() {
   return (
     <>
       <div className="cover-img">
-        <img src="/images/About/coverimg.jpg" alt="img" id="cv-img" />
+        <img src="https://res.cloudinary.com/dxok1pcjy/image/upload/v1707592762/Cover/hcq0higutyn3xmoocjm0.jpg" alt="img" id="cv-img" />
         <div className="override-content">
-          <img src="/images/About/PrajwalGandhi.jpg" alt="" id="pf-img" />
+          <img src="https://res.cloudinary.com/dxok1pcjy/image/upload/v1707592763/Cover/xjwlncmgdcinfjcan6go.jpg" alt="" id="pf-img" />
           <div className="cv-info">
             <div className="self-intro">
               <h1 id="my-name">Prajwal Gandhi</h1>
@@ -14,7 +14,7 @@ export default function CoverImage() {
             </div>
             <div className="insta-btn">
               <button className="my-button">
-                <a href="" id="btn-link">
+                <a href="https://www.instagram.com/iamprajwalgandhi?igsh=MXRwZ204ajYzaGZpbg==" id="btn-link" target="blank">
                   <FaInstagram /> Follow me on Instagram
                 </a>
               </button>

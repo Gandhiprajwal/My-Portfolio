@@ -11,7 +11,7 @@ export default function Footer() {
           </h3>
           <p id="quote-3"><a href="mailto:prajwalgandhi20@gmail.com">Email</a> &#128233; | <a href="https://www.linkedin.com/in/prajwalgandhi/" target="blank">LinkedIn</a> &#128188;</p>
           <p id="quote-4">
-            Designed and Handcoded in India with &#10084; by Prajwal Gandhi &copy;
+            Designed and Handcoded in India by Prajwal Gandhi &copy;
             2024.
           </p>
         </div>
