@@ -1,4 +1,4 @@
 # Backend .env file
-/backend/.env
+./backend/.env
 /backend/node_modules
 /my-portfolio/node-modules
