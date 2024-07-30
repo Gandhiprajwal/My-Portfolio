@@ -2,4 +2,4 @@
 /backend/.env
 /backend/node_modules
 /my-portfolio/node-modules
-.env
+.env 
